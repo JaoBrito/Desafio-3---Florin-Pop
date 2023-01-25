@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #DFEBEB;
+    --text-color: #01000F;
+    font-size: 62.5%;
+}
+
+body{
+    background: var(--primary-color);
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+
+form{
+    background: white;
+    width: min(73rem, 87%);
+    margin: auto;
+}
+
+form legend{
+    font-size: 3.2rem;
+    font-family:'Libre Baskerville', serif;;
+}
