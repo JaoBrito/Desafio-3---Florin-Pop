@@ -33,6 +33,7 @@ form{
     background: white;
     width: min(73rem, 87%);
     margin:auto;
+    height: 80rem;
     padding: 9rem;
     border-radius: 3.2rem;
     box-shadow: 0 0 4.8rem rgb(0, 0, 0 / .1);
@@ -104,14 +105,38 @@ legend + .radio-wrapper{
 /* checkbox */
 
 .check-wrapper{
+    display: flex;
+    gap: .8rem;
+    padding-inline: 2.2rem;
+}
+.check-wrapper input[type="checkbox"]{
+    appearance: none;
+    flex-shrink: 0;
+    width: 2.8rem;
+    height: 2.8rem;
+    position: relative;
+    border: 1px solid #6B7473;
+    border-radius: .6rem;
+}
+
+.check-wrapper input[type="checkbox"]:focus{
+    outline: 2px solid black;
+}
+
+.check-wrapper input[type="checkbox"]:checked::before{
+ content: "✔";
+ font-size: 2.4rem;
+ position: absolute;
+ color: #1CA3F3;
+ top: -0.5rem;
+ left: .3rem;
+
 
 }
 
-.radio-wrapper + .check-wrapper{
-    margin-top: 4.8rem;
+.check-wrapper label{
+    margin-top: .4rem;
 }
-
-
 /* button */
 button{
     margin-top: 5.8rem;
@@ -126,4 +151,9 @@ small{
     text-align: center;
     display: block;
     margin-top: 2.8rem;
+}
+
+
+.radio-wrapper + .check-wrapper{
+    margin-top: 4.8rem;
 }
