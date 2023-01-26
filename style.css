@@ -16,6 +16,21 @@ body{
     font-size: 1.6rem;
 }
 
+.radio-wrapper{
+    background: green;
+}
+
+.check-wrapper{
+    background: orange;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
 form{
     background: white;
     width: min(73rem, 87%);
