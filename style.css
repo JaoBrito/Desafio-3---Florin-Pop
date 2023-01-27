@@ -76,7 +76,7 @@ fieldset{
 }
 
 .radio-wrapper input[type="radio"]:checked{
-    background: url(./assets/checked.gif) no-repeat center/cover;
+    background: url(./assets/check.gif) no-repeat center/cover;
 }
 
 .radio-wrapper:not(:has(:checked)){
