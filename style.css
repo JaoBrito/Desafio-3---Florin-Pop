@@ -108,7 +108,10 @@ legend + .radio-wrapper{
     display: flex;
     gap: .8rem;
     padding-inline: 2.2rem;
+    border: 1px solid red;
+    text-align: center;
 }
+
 .check-wrapper input[type="checkbox"]{
     appearance: none;
     flex-shrink: 0;
@@ -128,8 +131,8 @@ legend + .radio-wrapper{
  font-size: 2.4rem;
  position: absolute;
  color: #1CA3F3;
- top: -0.5rem;
- left: .3rem;
+ top: -0.6rem;
+ left: .4rem;
 
 
 }
@@ -145,6 +148,13 @@ button{
     border: 0;
     background-color: #1CA3F3;
     color: white;
+
+    transition: background 0.5s;
+}
+
+button:hover{
+    background-color: #1f7fb6;
+    cursor: pointer;
 }
 
 small{
