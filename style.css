@@ -108,8 +108,6 @@ legend + .radio-wrapper{
     display: flex;
     gap: .8rem;
     padding-inline: 2.2rem;
-    border: 1px solid red;
-    text-align: center;
 }
 
 .check-wrapper input[type="checkbox"]{
